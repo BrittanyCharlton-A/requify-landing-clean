@@ -4,6 +4,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { JSX } from "react";
 import {
   DocumentTextIcon,
   BeakerIcon,
@@ -257,8 +258,6 @@ export default function Home() {
     </p>
   </div>
 </section>
-
-
         {/* Footer */}
         <footer className="bg-white border-t border-gray-200 py-6 text-center text-sm text-gray-500">
           <div className="container mx-auto px-4">
