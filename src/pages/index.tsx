@@ -123,10 +123,10 @@ export default function Home() {
               Built for Primary Care, Walk-In, and Specialist Clinics
             </p>
             <h1 className="text-5xl font-bold tracking-tight leading-[1.15] mb-6 text-gray-900">
-              Digitize Medical Requisitions
+              Digital Medical Requisitions
             </h1>
             <p className="text-base md:text-lg mb-6 max-w-xl text-gray-700">
-              Streamline requisitions, eliminate delays, and get lab results faster; <br />all from one secure dashboard.
+              Streamline requisitions, eliminate delays, and get lab results quicker; <br />all from one secure dashboard.
             </p>
             <div className="mb-8 space-y-2 text-sm text-gray-700">
               <div className="flex items-center gap-2">
@@ -139,7 +139,7 @@ export default function Home() {
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircleIcon className="h-5 w-5 text-blue-600" />
-                <span>Get set up in under 48 hours</span>
+                <span>Setup completed in 48 hours</span>
               </div>
             </div>
             <div className="flex gap-4">
@@ -148,7 +148,7 @@ export default function Home() {
               </Link>
             </div>
             <p className="text-xs text-gray-500 mt-2">
-              No obligations — see how Requify works in under 15 minutes.
+              No commitment; see how Requify works in under 15 minutes.
             </p>
           </div>
           <div className="md:w-1/2 flex items-end justify-end relative">
@@ -173,17 +173,17 @@ export default function Home() {
                 {
                   icon: <DocumentTextIcon className="h-6 w-6 text-blue-600" />,
                   title: "Submit Digitally",
-                  desc: "Start in seconds; no printing, scanning, or faxing needed."
+                  desc: "Start in seconds; no printing, scanning, or faxing required."
                 },
                 {
                   icon: <BeakerIcon className="h-6 w-6 text-blue-600" />,
-                  title: "Labs Receive Instantly",
+                  title: "Lab Receives Instantly",
                   desc: "Auto-filled templates sent in real time, reducing back-and-forth."
                 },
                 {
                   icon: <FolderOpenIcon className="h-6 w-6 text-blue-600" />,
                   title: "Track & Access Reports",
-                  desc: "Know where every requisition stands and never lose a report again."
+                  desc: "Track the status of every requisition and never lose a report again."
                 }
               ].map((item, idx) => (
                 <motion.div
@@ -242,7 +242,7 @@ export default function Home() {
         {/* Contact Section */}
         <section id="contact" className="bg-white py-24 px-6 md:px-12 lg:px-24">
   <div className="max-w-3xl mx-auto text-center">
-    <h2 className="text-3xl font-bold text-gray-900 mb-4">We’re here to help your clinic run smoother</h2>
+    <h2 className="text-3xl font-bold text-gray-900 mb-4">Still manually completing requisitions? <br></br> It is time to upgrade.</h2>
     <p className="text-lg text-gray-600 mb-6">
       Have questions, feedback, or want to get started with Requify?
       <br className="hidden md:block" />
